@@ -1,0 +1,261 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+h1,h2,h3,h4,h5,h6,em,i {
+    font-weight: 100;
+    font-style: normal
+}
+ul,ol,li {
+    list-style-type: none
+}
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0
+}
+a:hover {
+    text-decoration: none
+}
+.top-bar {
+    height: 40px;
+    background: #333;
+    color: #999;
+    top: 0;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    left: 0;
+    min-width: 990px;
+}
+.top-bar .bar-left {
+    height: 40px;
+}
+.left {
+    float: left;
+}
+ol, ul {
+    list-style: none;
+}
+.top-bar .bar-left li {
+    float: left;
+    height: 40px;
+}
+.bar-link a, .top-bar .bar-left li a {
+    font-size: 14px;
+    color: #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.top-bar a {
+    color: #f1f1f1;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.top-bar .bar-left li {
+    float: left;
+    height: 40px;
+}
+.top_bar_more {
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+}
+.top_bar_more i {
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-top: 6px solid #ccc;
+    margin: 18px auto 0;
+}
+i {
+    font-style: normal;
+}
+.top_bar_more div {
+    display: none;
+    background: #333;
+    left: -36px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 66px width:100%;
+}
+.top-bar .nr3 {
+    display: block;
+    font-size: 10px;
+    color: #f1f1f1;
+    width: 60px;
+    text-align: center;
+    line-height: 1em;
+    background: #FE5761;
+    float: right;
+    height: 100%;
+}
+.top-bar a {
+    color: #f1f1f1;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.top-bar .nr3 img {
+    display: block;
+    margin: 4px auto 2px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.right {
+    float: right;
+}
+.bar-info {
+    position: relative;
+}
+.right {
+    float: right;
+}
+.clear {
+    zoom: 1;
+}
+ol, ul {
+    list-style: none;
+}
+.bar-item, .bar-tips {
+    display: none;
+}
+.bar-sign-tips {
+    right: 0;
+}
+.bar-tips {
+    position: absolute;
+    top: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.bar-sign-tips i.arrow {
+    left: auto;
+    right: 18px;
+}
+.bar-tips i.arrow {
+    top: -20px;
+    border-bottom: 10px solid #ccc;
+}
+.bar-tips .arrow {
+    position: absolute;
+    left: 20px;
+    border-width: 10px;
+}
+.arrow {
+    display: block;
+    border: 5px dashed transparent;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+i {
+    font-style: normal;
+}
+.bar-sign-tips b.arrow {
+    left: auto;
+    right: 18px;
+}
+.bar-tips b.arrow {
+    top: -19px;
+    border-bottom: 10px solid #fff;
+}
+.bar-tips .arrow {
+    position: absolute;
+    left: 20px;
+    border-width: 10px;
+}
+.arrow {
+    display: block;
+    border: 5px dashed transparent;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+b {
+    font-weight: 400;
+}
+.top-bar .bar-tips a.close {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 18px;
+    color: #000;
+    height: 20px;
+    line-height: 20px;
+}
+.top-bar .bar-tips a {
+    color: #fd8712;
+}
+.top-bar a {
+    color: #f1f1f1;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.bar-item, .bar-tips {
+    display: none;
+}
+.bar-message-tips {
+    right: 20px;
+}
+.bar-tips {
+    position: absolute;
+    top: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.bar-message-tips p {
+    display: none;
+}
+.top-bar .bar-tips a {
+    color: #fd8712;
+}
+.top-bar a {
+    color: #f1f1f1;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
